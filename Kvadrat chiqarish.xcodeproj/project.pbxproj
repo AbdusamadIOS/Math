@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		EEC3ED702A00437A00B7A0D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC3ED6F2A00437A00B7A0D9 /* AppDelegate.swift */; };
-		EEC3ED722A00437A00B7A0D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC3ED712A00437A00B7A0D9 /* SceneDelegate.swift */; };
-		EEC3ED742A00437A00B7A0D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC3ED732A00437A00B7A0D9 /* ViewController.swift */; };
-		EEC3ED772A00437A00B7A0D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC3ED752A00437A00B7A0D9 /* Main.storyboard */; };
 		EEC3ED792A00437B00B7A0D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEC3ED782A00437B00B7A0D9 /* Assets.xcassets */; };
 		EEC3ED7C2A00437B00B7A0D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEC3ED7A2A00437B00B7A0D9 /* LaunchScreen.storyboard */; };
+		EEC3ED892A0043C100B7A0D9 /* StarPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC3ED872A0043C100B7A0D9 /* StarPage.swift */; };
+		EEC3ED8A2A0043C100B7A0D9 /* StarPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEC3ED882A0043C100B7A0D9 /* StarPage.xib */; };
+		EEC3ED8D2A004BC600B7A0D9 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC3ED8B2A004BC600B7A0D9 /* MainVC.swift */; };
+		EEC3ED8E2A004BC600B7A0D9 /* MainVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEC3ED8C2A004BC600B7A0D9 /* MainVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EEC3ED6C2A00437A00B7A0D9 /* Kvadrat chiqarish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kvadrat chiqarish.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC3ED6F2A00437A00B7A0D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EEC3ED712A00437A00B7A0D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EEC3ED732A00437A00B7A0D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EEC3ED762A00437A00B7A0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEC3ED782A00437B00B7A0D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEC3ED7B2A00437B00B7A0D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEC3ED7D2A00437B00B7A0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEC3ED872A0043C100B7A0D9 /* StarPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarPage.swift; sourceTree = "<group>"; };
+		EEC3ED882A0043C100B7A0D9 /* StarPage.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StarPage.xib; sourceTree = "<group>"; };
+		EEC3ED8B2A004BC600B7A0D9 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		EEC3ED8C2A004BC600B7A0D9 /* MainVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				EEC3ED6F2A00437A00B7A0D9 /* AppDelegate.swift */,
-				EEC3ED712A00437A00B7A0D9 /* SceneDelegate.swift */,
-				EEC3ED732A00437A00B7A0D9 /* ViewController.swift */,
-				EEC3ED752A00437A00B7A0D9 /* Main.storyboard */,
+				EEC3ED872A0043C100B7A0D9 /* StarPage.swift */,
+				EEC3ED882A0043C100B7A0D9 /* StarPage.xib */,
+				EEC3ED8B2A004BC600B7A0D9 /* MainVC.swift */,
+				EEC3ED8C2A004BC600B7A0D9 /* MainVC.xib */,
 				EEC3ED782A00437B00B7A0D9 /* Assets.xcassets */,
 				EEC3ED7A2A00437B00B7A0D9 /* LaunchScreen.storyboard */,
 				EEC3ED7D2A00437B00B7A0D9 /* Info.plist */,
@@ -125,9 +128,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEC3ED8A2A0043C100B7A0D9 /* StarPage.xib in Resources */,
+				EEC3ED8E2A004BC600B7A0D9 /* MainVC.xib in Resources */,
 				EEC3ED7C2A00437B00B7A0D9 /* LaunchScreen.storyboard in Resources */,
 				EEC3ED792A00437B00B7A0D9 /* Assets.xcassets in Resources */,
-				EEC3ED772A00437A00B7A0D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +142,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEC3ED742A00437A00B7A0D9 /* ViewController.swift in Sources */,
+				EEC3ED892A0043C100B7A0D9 /* StarPage.swift in Sources */,
+				EEC3ED8D2A004BC600B7A0D9 /* MainVC.swift in Sources */,
 				EEC3ED702A00437A00B7A0D9 /* AppDelegate.swift in Sources */,
-				EEC3ED722A00437A00B7A0D9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EEC3ED752A00437A00B7A0D9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EEC3ED762A00437A00B7A0D9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EEC3ED7A2A00437B00B7A0D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,9 +285,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Kvadrat chiqarish/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Math;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,9 +313,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Kvadrat chiqarish/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Math;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
